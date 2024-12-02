@@ -1,0 +1,273 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand, .nav-link{
+  font-family: "Lexend";
+  font-size: 18px;
+  color: #E7E1D5;
+  font-weight: bold;
+}
+
+
+.nav-link:hover{
+  color: #d07d46;
+}
+
+.navbar-toggler{
+  background-color: white;
+}
+
+/*CARRUSEL SECCION*/
+
+#seccion-carrusel{
+  position: relative;
+  height: auto;
+}
+
+.carouselExampleControls {
+  height: 80vh;
+}
+
+.carousel-item img{
+  filter: brightness(0.8);
+  height: 80vh;
+  object-fit: cover;
+}
+
+#seccion-carrusel .text-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 999;
+}
+
+#seccion-carrusel .text-container h1 {
+  font-family: "Meddon";
+  font-size: 55px;
+  margin-bottom: 1rem;
+}
+
+#seccion-carrusel .text-container p {
+  font-family: "Lexend";
+  text-shadow: 45px black;
+  background-color: #a4561a7b;
+  font-size: 18px;
+  margin-bottom: 1.5rem;
+}
+
+#seccion-carrusel .btn-outline-light{
+  font-family: "Lexend";
+  font-size: 18px;
+}
+
+
+.layout{
+  background-color: #d07d46;
+  margin-top: -30px;
+  padding-bottom: 35px;
+}
+
+.titulo-tres h1{
+  font-size: 55px;
+  font-family: "Meddon";
+  text-align: center;
+  color: #271000;
+  padding: 50px;
+}
+
+.titulo-tres{
+  background-color: #E7E1D5 ;
+}
+
+.textos-tres h4{
+  padding-top: 45px;
+  align-items: center;
+  font-family:"Acme";
+  color: #ffffff ;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  text-align: center;
+
+}
+
+.textos-tres p{
+  font-family:"Lexend";
+  color:  #ffffff;
+  font-size:18px ;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.col-6 p{
+  background-color: #2A0E03;
+  margin-top: 25px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+
+.row{
+  align-items: center;
+  justify-content: center;
+}
+
+.col-6 p{
+  color: white;
+  font-family:"Lexend";
+
+}
+
+.parte-cuatro{
+  background: linear-gradient(to right, #d7c0ad, #BF7842);
+  padding: 35px;
+}
+
+.parte-cuatro h1{
+  font-size: 55px;
+  font-family: "Meddon";
+  text-align: center;
+  color: #271000;
+  padding: 25px;
+  background-color: rgba(245, 245, 220, 0.754);
+}
+
+.parte-cuatro video{
+  padding-top: -50px;
+  border-radius: 15px;
+}
+
+.parte-quinto{
+  background-color: #2A0E03;
+  padding-bottom: 35px;
+}
+
+.titulo-quinto h1{
+  font-size: 55px;
+  font-family: "Meddon";
+  text-align: center;
+  color: beige;
+  padding: 40px;
+}
+
+.container{
+  align-items: center;
+}
+
+.card-body{
+  background-color: beige;
+}
+
+.card-body h5{
+  font-family:"Lexend";
+  color: #2A0E03;
+  font-size: 21px;
+  text-align: center;
+}
+
+.card-body p{
+  font-family: "Lexend";
+  font-size: 17px;
+  text-align: center;
+}
+
+.card-body i{
+  color: #d66915;
+}
+
+.btn-outline-dark{
+  margin-left: 85px;
+}
+
+.parte-sexta{
+  background-color: #E7E1D5;
+  padding: 35px;
+}
+
+.titulo-sexta h1{
+  font-family: "Meddon";
+  font-size: 55px;
+  text-align: center;
+  color:  #2A0E03;
+}
+
+.table-bordered {
+  border: 2px solid rgb(0, 0, 0);
+}
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle;
+  font-family:"Lexend";
+  font-size: 18px;
+}
+
+.table td{
+  color: #7e2b0a;
+  background-color: #ffffff;
+}
+
+.table th{
+  color: #dc4429;
+  font-size: 23px;
+}
+
+.parte-septima{
+  background-color: #7C2300;
+  padding: 35px;
+}
+
+.titulo-septima h1{
+  font-family: "Meddon";
+  font-size: 55px;
+  text-align: center;
+  color:  #ffffff;
+}
+
+.col-md-6 h2{
+  font-size: 30px;
+  font-family: "Lexend";
+  color: #ffffff;
+}
+
+.mb-3 label{
+  font-family: "Lexend";
+  background-color: #2A0E03;
+  color: #E7E1D5;
+  padding: 2px 25px 8px 10px;
+  border-radius: 12px;
+}
+
+.mb-3 input{
+  background-color: #ffe6d0de;
+  font-family: "Lexend" ;
+}
+
+.mb-3 textarea{
+  background-color: #ffe6d0de;
+  font-family: "Lexend" ;
+}
+
+.img-fluid {
+  box-shadow: 10px 10px 5px #d7c0ad ;
+}
+
+.footer{
+  padding: 25px;
+}
+
+
+.footer a{
+  font-size: 1.5em;
+  margin-left: 25px;
+
+}
+
+.footer p{
+  font-family:"Lexend";
+}
+
